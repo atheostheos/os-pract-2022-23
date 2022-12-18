@@ -19,6 +19,6 @@ def run_process(s: int) -> None:
 
 
 if __name__ == "__main__":
+    # Use automatic CLI generator
+    # E.g. python child.py -s=4
     fire.Fire(run_process)
-
-

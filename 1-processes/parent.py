@@ -38,4 +38,6 @@ def run_processes(amount: int) -> None:
 
 
 if __name__ == "__main__":
+    # Use automatic CLI generator
+    # E.g. python parent.py --amount=4
     fire.Fire(run_processes)
